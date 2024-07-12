@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--mantine-font-family);
+    scroll-behavior: smooth;
+}
+
+@layer utilities {
+    .base-border {
+        border: 0.0625rem solid var(--mantine-color-gray-3);
+    }
+}

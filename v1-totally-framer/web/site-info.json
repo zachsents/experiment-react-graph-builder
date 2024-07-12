@@ -1,0 +1,5 @@
+{
+    "name": "New App",
+    "description": "Build a new app",
+    "sendLoggedInUsersTo": "/"
+}
